@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>EXPENSE TRACKER</h1>
+    </div>
+    <div class="container">
+      <form id="addform">
+        <label>ChooseExpenseAmount:</label>
+        <input type="number" id="inp1" placeholder="Enter your Amount" />
+        <br />
+        <br />
+        <label>ChooseDescription:</label>
+        <input type="text" id="inp2" placeholder="Enter your Description" />
+        <br />
+        <br />
+        <label>Choose a Category:</label>
+        <select id="inp3">
+          <option>Choose Category</option>
+          <option>Fuel</option>
+          <option>Food</option>
+          <option>Electricity</option>
+          <option>Movie</option>
+        </select>
+        <br /><br />
+
+        <input type="submit" value="Addexpense" />
+      </form>
+      <br /><br />
+      <div class="style_li">
+        <ul id="items" class="li_items"></ul>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

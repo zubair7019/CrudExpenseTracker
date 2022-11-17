@@ -1,0 +1,35 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    background-color: hwb(9 69% 9%);
+    border: 5px solid rgba(109, 9, 101, 0.863);
+    text-align: center; 
+}
+
+.li_items{
+    text-align: center; 
+}
+.style_li{
+    margin-left: 500px;
+    margin-right: 400px; 
+    padding-right:70px;
+
+}
+.header{
+color: lightsalmon;
+border: 10px solid rgb(20, 153, 120);
+text-align: center;
+border-inline-start-color: rgb(153, 214, 96);
+border-inline-end-color: rgb(6, 15, 136);
+
+}
+.delete{
+    margin: 5px;
+    background-color: rgb(252, 125, 22);
+}
+.edt{
+    margin: 2px;
+    background-color: rgb(108, 238, 177);
+}
+
